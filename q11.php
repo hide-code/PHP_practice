@@ -7,4 +7,4 @@ function calcTaxInPrice($price)
 $price = 1000;
 $taxInPrice = calcTaxInPrice($price);
 
-echo $price.'円の商品の税込価格は'.$taxInPrice.'円です。';
+echo $price . '円の商品の税込価格は' . $taxInPrice . '円です。';

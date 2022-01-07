@@ -1,6 +1,6 @@
 <?php
 function hello($name){
-    return $name.'さん、こんにちは。'."\n";
+    return $name . 'さん、こんにちは。' . "\n";
 }
 
 $name = '安藤';

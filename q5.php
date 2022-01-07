@@ -1,14 +1,10 @@
 <?php
 
-$device = 'mac';
+$device = 'windows';
 
-if ($device === 'windows'){
-    echo '使用OSはwindowsです。';
+if ($device === 'windows' || $device === 'mac'){
+    echo '使用OSは' . $device . 'です。';
 } else {
-    if ($device === 'mac'){
-        echo '使用OSはmacです。';
-    } else {
-         echo 'どちらでもありません。';
-    }
-    
+    echo 'どちらでもありません。';
 }
+    
