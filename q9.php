@@ -19,7 +19,7 @@ foreach ($prefectures as $ken => $shi) {
     if (in_array($ken, $kanto)){
         echo $ken . '県の県庁所在地は、' . $shi . 'です。' . "\n";
     } else {
-         echo $ken.'県は関東地方ではありません。'."\n";
+         echo $ken . '県は関東地方ではありません。' . "\n";
     }
 }
 
