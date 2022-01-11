@@ -8,14 +8,15 @@ $prefectures = [
     '栃木' => '宇都宮市',
     '茨城' => '茨城市',
     '群馬' => '前橋市',
-    '愛知' =>'名古屋市',
-    '京都' =>'京都市'
 ];
 
-$kanto = ['東京', '神奈川', '栃木', '千葉', '茨城', '埼玉', '群馬'];
+$kantoArea = $prefectures;
+
+$prefectures['愛知'] =  '名古屋市';
+$prefectures['京都'] =  '京都市';
 
 foreach ($prefectures as $prefecture => $city) {
-    if (in_array($prefecture, $kanto)){
+    if (array_key_exists($prefecture, $kantoArea)) {
         echo $prefecture . '県の県庁所在地は、' . $city . 'です。' . "\n";
     } else {
         echo $prefecture . '県は関東地方ではありません。' . "\n";

@@ -6,10 +6,10 @@ evaluateGrade($grade);
 $grade = 'A';
 evaluateGrade($grade);
 
-function evaluateGrade($grade) {
+function evaluateGrade($grade)
+{
     switch ($grade) {
         case 'A':
-
         case 'B':
             echo '合格です。' . "\n";
             break;

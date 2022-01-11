@@ -1,7 +1,7 @@
 <?PHP
 
-$date = new DateTime('2021-03-02');
-echo $date->modify('-1 month')->format('Y-m-d') . "\n";
+$date = new DateTime('-1 month');
+echo $date->format('Y-m-d') . "\n";
 
 $now = new DateTime('2021-03-02');
 $past = new DateTime('1992-04-25');

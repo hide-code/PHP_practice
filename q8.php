@@ -11,7 +11,7 @@ $prefectures = [
 ];
 
 foreach ($prefectures as $prefecture => $city) {
-    if ($prefecture === '埼玉'){
+    if ($prefecture === '埼玉') {
         echo $prefecture . '県の県庁所在地は、' . $city . '市です。';
     }
 }

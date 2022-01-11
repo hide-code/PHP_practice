@@ -1,7 +1,8 @@
 <?php
 
-function distinguishNum($number) {
-    if ($number % 2 === 0){
+function distinguishNum($number)
+{
+    if ($number % 2 === 0) {
         return $number . 'は偶数です。';
     } else {
         return $number . 'は奇数です。';
