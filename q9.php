@@ -14,12 +14,11 @@ $prefectures = [
 
 $kanto = ['東京', '神奈川', '栃木', '千葉', '茨城', '埼玉', '群馬'];
 
-foreach ($prefectures as $ken => $shi) {
-
-    if (in_array($ken, $kanto)){
-        echo $ken . '県の県庁所在地は、' . $shi . 'です。' . "\n";
+foreach ($prefectures as $prefecture => $city) {
+    if (in_array($prefecture, $kanto)){
+        echo $prefecture . '県の県庁所在地は、' . $city . 'です。' . "\n";
     } else {
-        echo $ken . '県は関東地方ではありません。' . "\n";
+        echo $prefecture . '県は関東地方ではありません。' . "\n";
     }
 }
 

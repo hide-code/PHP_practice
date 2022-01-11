@@ -10,10 +10,9 @@ $prefectures = [
     '群馬' => '前橋'
 ];
 
-foreach ($prefectures as $ken => $shi) {
-
-    if ($ken === '埼玉'){
-        echo $ken . '県の県庁所在地は、' . $shi . '市です。';
+foreach ($prefectures as $prefecture => $city) {
+    if ($prefecture === '埼玉'){
+        echo $prefecture . '県の県庁所在地は、' . $city . '市です。';
     }
 }
 

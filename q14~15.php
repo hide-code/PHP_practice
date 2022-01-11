@@ -11,9 +11,9 @@ class Student
         $this->name = $name;
     }
 
-    public function attend()
+    public function attend($subject)
     {
-        echo $this->name . 'はPHP授業に出席しました。学籍番号:' . $this->studentId;
+        echo $this->name . 'は' . $subject . 'の授業に出席しました。学籍番号:' . $this->studentId;
     }
 }
 

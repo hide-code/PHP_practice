@@ -1,5 +1,5 @@
 <?php
-function hello($name){
+function hello($name) {
     return $name . 'さん、こんにちは。' . "\n";
 }
 

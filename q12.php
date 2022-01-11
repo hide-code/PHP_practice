@@ -1,10 +1,10 @@
 <?php
 
-function distinguishNum ($val){
-    if ($val % 2 === 0){
-        return $val . 'は偶数です。';
+function distinguishNum($number) {
+    if ($number % 2 === 0){
+        return $number . 'は偶数です。';
     } else {
-        return $val . 'は奇数です。';
+        return $number . 'は奇数です。';
     }
 }
 
